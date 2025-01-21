@@ -1,6 +1,7 @@
 # Latent-Space-manipulation---StyleGAN2
 Seminarska naloga pri predmetu Seminar iz biometričnih sistemov (Univerza v Ljubljani, Fakulteta za elektrotehniko - Avtomatika in informatika (BMA))
 
+---
 ## Abstract
 Sinteza fotorealističnih obrazov je že vrsto let na področju biometrije precej aktualna tema. V zadnjem času
 ta še posebej pridobiva na pozornosti saj so slike obrazov obravnavane kot osebni podatki in te ne smejo biti
@@ -14,6 +15,9 @@ Face, ki uporablja ResNet-18 hrbtenico. Naučen je bil tako na umetno generirani
 zbirki, ki vsebuje slike resničnih ljudi. Rezultati so pokazali, da tak način ni primeren za učenje razpoznavalnikov obrazov
 in bi uporabljena metoda potrebovala dodatke nadgradnje, da bi bila ustrezna.
 
+![present_img](https://github.com/TilenTinta/Sinteza-slik-obrazov-za-ucenje-modelov-za-razpoznavanje-obrazov/tree/main/Slike/teaser.PNG)
+
+---
 ## Zahtevana predpriprava
 Za generiranje slik namenjenih iskanju latentnih smeri in uporabi manipuliranih vektorjev za granjenje slikovne baze je potrebno uporabiti prednaučen model
 StyleGAN2 razvitega s strani Nvidia. Ta je dostopen na:
@@ -26,6 +30,7 @@ na voljo na njihovem repozitoriju:
 V primeru treniranja svojega modela je potrebno prenesti še Labelled Faces in the Wild (LFW) Dataset:
 - https://www.kaggle.com/datasets/jessicali9530/lfw-dataset
 
+---
 ## Opis kode
 - faceGeneratorStyleGAN2.py - generiranje n števila slik iz naključnih latentnih vektorjev
 - fastSort.py - prikaže vsako generirano sliko in jo mi razvrstimo v mapi z in brez neke lastnosti (očala, nasmeh, starost...)
