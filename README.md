@@ -15,7 +15,7 @@ Face, ki uporablja ResNet-18 hrbtenico. Naučen je bil tako na umetno generirani
 zbirki, ki vsebuje slike resničnih ljudi. Rezultati so pokazali, da tak način ni primeren za učenje razpoznavalnikov obrazov
 in bi uporabljena metoda potrebovala dodatke nadgradnje, da bi bila ustrezna.
 
-![present_img](https://github.com/TilenTinta/Sinteza-slik-obrazov-za-ucenje-modelov-za-razpoznavanje-obrazov/tree/main/Slike/teser.PNG)
+![present_img](https://github.com/TilenTinta/Sinteza-slik-obrazov-za-ucenje-modelov-za-razpoznavanje-obrazov/blob/main/Slike/teser.PNG)
 
 ---
 ## Zahtevana predpriprava
